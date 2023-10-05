@@ -1,0 +1,6 @@
+package com.acorn.day1.di;
+
+@Controller
+public class pController3 {
+
+}

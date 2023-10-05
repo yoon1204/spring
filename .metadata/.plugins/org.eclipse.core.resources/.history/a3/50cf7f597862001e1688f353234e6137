@@ -1,0 +1,34 @@
+package com.acorn.web;
+
+import java.awt.print.Book;
+import java.util.ArrayList;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+public class TestController {
+
+	@ResponseBody
+	@GetMapping("/hi")
+	public String method() {
+		return "hi";
+	}
+	
+	@ResponseBody
+	@GetMapping("/hi2")
+	public User method2() {
+		User user = new User("test01","1234");
+		return user;
+	}
+	
+	@ResponseBody
+	@GetMapping("/hi3")
+	public ArrayList<User> method3(){
+		ArrayList<User> list = new ArrayList<>();
+		list.add(new User("test01","화이팅1"));
+		list.add(new User("test02","화이팅2"));
+		list.add(new User("test03","화이팅3"));
+		return list;
+	}
+	
+}

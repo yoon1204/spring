@@ -35,7 +35,7 @@ public class ApiController2 {
 	
 	
 	//등록
-	
+	 
 	@ResponseBody
 	@RequestMapping(value="/drama", method=RequestMethod.POST)
 	public void register(@RequestBody Drama drama) {

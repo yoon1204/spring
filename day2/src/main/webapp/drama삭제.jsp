@@ -17,7 +17,7 @@ function delete1(){
 	//$.ajax();
 	  $.ajax({
 		type:"DELETE",
-		url:"/day2/drama/"+name,	//path Variable
+		url:"/day2/drama/"+name,	// path Variable
 		success:function(data){
 			alert(data);
 		},

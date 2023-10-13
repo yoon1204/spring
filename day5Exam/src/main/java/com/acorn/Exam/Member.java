@@ -1,6 +1,7 @@
 package com.acorn.Exam;
+ 
 
-import java.sql.Date;
+import java.util.Date;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,6 +19,7 @@ public class Member {
 	private String birth; 
 	private String sns; 
 	private Date reg_date;
+	
 	@Override
 	public String toString() {
 		return "Member [id=" + id + ", pwd=" + pwd + ", name=" + name + ", email=" + email + ", birth=" + birth

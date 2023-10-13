@@ -26,7 +26,7 @@ public class MemberDAOTest {
  	@Autowired
  	MemberDAO dao;
  	
- 	
+ 	//dao연결
  	@Test
  	public void test() throws SQLException {
  		//fail("Not yet implemented");		

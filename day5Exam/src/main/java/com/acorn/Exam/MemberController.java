@@ -2,16 +2,19 @@ package com.acorn.Exam;
 
 import java.util.ArrayList;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
+
+@Controller
 public class MemberController {
 	
-	MemberService s = new MemberService();
+	@Autowired
+	MemberService s;
 
 	//조회
-	@ResponseBody
 	@RequestMapping("/find")
 	public String FindAll(Model model) {
 		ArrayList<Member> memberList = new ArrayList<>();

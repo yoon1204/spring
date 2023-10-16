@@ -18,6 +18,9 @@
     	DELETE FROM membertb WHERE id = #{id}
     </delete>
     
-    <select id="deleteAll result"
+   <insert id="insert" parameterType="Member">
+	   INSERT INTO membertb(id, pwd, name) 
+	   VALUES (#{id}, #{pwd}, #{name})
+   </insert>
 
 </mapper>

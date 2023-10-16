@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="aa"/>
 <aop-project name="day5Exception"/>
 <aop-project name="uploadSample"/>
+<aop-project name="batisPrac"/>
+<aop-project name="day1"/>
+<aop-project name="day5Test"/>
+<aop-project name="batisPrj"/>
+<aop-project name="aa"/>
 <aop-project name="test"/>
+<aop-project name="day5Exam"/>
 <aop-project name="Memo"/>
 <aop-project name="day5Cookie"/>
-<aop-project name="day1"/>
-<aop-project name="day2"/>
 <aop-project name="day4"/>
-<aop-project name="day5Test"/>
+<aop-project name="day2"/>
 </aop-reference-model>

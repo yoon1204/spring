@@ -25,10 +25,9 @@ public class MemberRepository {
     	return session.delete(namespace+"delete", id);
     }
     
-   public int insert(Member a) {
-	   return session.insert(namespace)+"insert", a);
+   public int insert(Member member) {
+	   return session.insert(namespace+"insert", member);
    }
   
-    
-     
+   
 }

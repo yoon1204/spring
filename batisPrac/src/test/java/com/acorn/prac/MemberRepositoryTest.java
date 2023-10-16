@@ -20,23 +20,28 @@ public class MemberRepositoryTest {
 	MemberRepository dao;
 
 	
-	@Test
+	//@Test
 	public void test() {
 		//fail("Not yet implemented");
 		log.info(dao.selectAll().size());		
 	}
 	
-	@Test
+	//@Test
 	public void test2() {
 		//fail("Not yet implemented");
 		//log.info(dao.select("test01").getName().equals("test01"));
 		log.info(dao.select("test01"));
 	}
 	
-	@Test
+	//@Test
 	public void test3() {
 		//fail("Not yet implemented");
 		log.info(dao.delete("test01"));
+	}
+	@Test
+	public void test4() {
+		//fail("Not yet implemented");
+		log.info(dao.insert(new Member("test03", "0000", "황길동")));
 	}
 
 }

@@ -177,3 +177,108 @@
 10월 16, 2023 16:40:26.990 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 10월 16, 2023 17:01:27.175 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 10월 16, 2023 17:02:40.535 [11220:7132:1016/170240.535:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+11월 01, 2023 11:19:15.605 NEW SESSION
+11월 01, 2023 11:19:15.605 [1880:4504:1101/111915.604:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 01, 2023 12:25:23.25 [1880:4504:1101/122523.024:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 01, 2023 12:25:23.25 [1880:4504:1101/122523.024:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 01, 2023 14:26:06.629 [1880:4504:1101/142606.629:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 01, 2023 16:07:20.955 [1880:4504:1101/160720.954:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 01, 2023 17:49:38.841 [1880:4504:1101/174938.841:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 01, 2023 18:02:39.212 [1880:4504:1101/180239.212:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 01, 2023 19:54:37.33 [1880:4504:1101/195437.032:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+11월 02, 2023 17:42:41.47 NEW SESSION
+11월 02, 2023 17:42:41.47 [12932:4508:1102/174241.031:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 02, 2023 17:42:41.196 [12932:4508:1102/174241.196:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.17 s for first_image_paint 0.154 s
+11월 02, 2023 17:42:41.315 [12932:4508:1102/174241.314:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.17 s for first_image_paint 0.154 s
+11월 02, 2023 17:42:41.726 [12932:4508:1102/174241.579:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.17 s for first_image_paint 0.154 s
+11월 02, 2023 17:42:41.879 [12932:4508:1102/174241.878:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.17 s for first_image_paint 0.154 s
+11월 02, 2023 17:42:41.994 [12932:4508:1102/174241.994:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.17 s for first_image_paint 0.154 s
+11월 02, 2023 17:42:42.113 [12932:4508:1102/174242.113:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.17 s for first_image_paint 0.154 s
+11월 02, 2023 17:42:42.297 [12932:4508:1102/174242.296:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.17 s for first_image_paint 0.154 s
+
+11월 08, 2023 12:05:54.974 NEW SESSION
+11월 08, 2023 12:05:54.974 [11868:13904:1108/120554.934:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_ABORTED)
+11월 08, 2023 12:13:05.985 [1880:12524:1108/121305.985:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_ABORTED)
+11월 08, 2023 12:34:06.979 [7924:7440:1108/123406.979:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_ABORTED)
+
+11월 09, 2023 09:59:27.836 NEW SESSION
+11월 09, 2023 09:59:27.836 [9796:10684:1109/095927.834:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 09, 2023 11:14:44.916 [3104:9712:1109/111444.915:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+11월 09, 2023 15:48:33.496 NEW SESSION
+11월 09, 2023 15:48:33.496 [9748:1228:1109/154833.494:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 09, 2023 15:48:33.659 [9748:1228:1109/154833.659:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:33.813 [9748:1228:1109/154833.813:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:33.920 [9748:1228:1109/154833.919:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:34.82 [9748:1228:1109/154834.082:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:34.272 [9748:1228:1109/154834.272:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:34.424 [9748:1228:1109/154834.424:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:34.559 [9748:1228:1109/154834.559:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:34.827 [9748:1228:1109/154834.827:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:35.342 [9748:1228:1109/154835.341:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:35.526 [9748:1228:1109/154835.525:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:35.676 [9748:1228:1109/154835.676:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:35.842 [9748:1228:1109/154835.842:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:36.224 [9748:1228:1109/154836.224:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:36.467 [9748:1228:1109/154836.467:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 15:48:36.517 [9748:1228:1109/154836.517:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.119 s for first_image_paint 0.104 s
+11월 09, 2023 16:24:53.92 [9748:1228:1109/162453.091:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 09, 2023 17:47:36.317 [9748:1228:1109/174736.316:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 09, 2023 18:58:13.391 [9748:1228:1109/185813.390:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:13.590 [9748:1228:1109/185813.590:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:13.712 [9748:1228:1109/185813.711:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:13.756 [9748:1228:1109/185813.756:ERROR:page_load_metrics_update_dispatcher.cc(67)] Received null navigation_start.
+11월 09, 2023 18:58:13.847 [9748:1228:1109/185813.847:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:14.172 [9748:1228:1109/185814.171:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:14.297 [9748:1228:1109/185814.297:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:14.689 [9748:1228:1109/185814.688:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:14.879 [9748:1228:1109/185814.879:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:15.24 [9748:1228:1109/185815.024:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:15.153 [9748:1228:1109/185815.153:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:15.269 [9748:1228:1109/185815.269:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:15.413 [9748:1228:1109/185815.413:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:15.545 [9748:1228:1109/185815.544:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:15.814 [9748:1228:1109/185815.814:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:15.938 [9748:1228:1109/185815.938:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:16.73 [9748:1228:1109/185816.073:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:16.257 [9748:1228:1109/185816.256:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:16.624 [9748:1228:1109/185816.623:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:16.721 [9748:1228:1109/185816.721:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 18:58:16.766 [9748:1228:1109/185816.766:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.112 s for first_image_paint 0.096 s
+11월 09, 2023 19:02:25.689 [9748:1228:1109/190225.689:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 09, 2023 19:07:12.922 [9748:1228:1109/190712.922:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 09, 2023 19:12:29.809 [9748:1228:1109/191229.809:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 09, 2023 19:12:29.954 [9748:1228:1109/191229.954:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:30.121 [9748:1228:1109/191230.120:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:30.236 [9748:1228:1109/191230.236:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:30.368 [9748:1228:1109/191230.368:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:30.498 [9748:1228:1109/191230.498:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:30.609 [9748:1228:1109/191230.609:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:31.27 [9748:1228:1109/191231.027:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:31.133 [9748:1228:1109/191231.132:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:31.424 [9748:1228:1109/191231.424:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:31.761 [9748:1228:1109/191231.761:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:31.916 [9748:1228:1109/191231.916:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:32.61 [9748:1228:1109/191232.061:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:32.211 [9748:1228:1109/191232.211:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:32.386 [9748:1228:1109/191232.386:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:32.512 [9748:1228:1109/191232.512:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:32.637 [9748:1228:1109/191232.637:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:32.753 [9748:1228:1109/191232.753:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+11월 09, 2023 19:12:32.792 [9748:1228:1109/191232.792:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.106 s for first_image_paint 0.095 s
+
+11월 10, 2023 09:10:32.309 NEW SESSION
+11월 10, 2023 09:10:32.309 [11036:9808:1110/091032.308:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 10, 2023 09:19:40.292 [11036:9808:1110/091940.292:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+11월 13, 2023 12:47:48.61 NEW SESSION
+11월 13, 2023 12:47:48.61 [13224:5612:1113/124748.059:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 13, 2023 12:48:52.734 [13224:5612:1113/124852.734:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+11월 21, 2023 11:15:56.947 NEW SESSION
+11월 21, 2023 11:15:56.947 [3640:5240:1121/111556.946:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 21, 2023 12:48:25.526 [3640:5240:1121/124825.526:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 21, 2023 15:13:49.505 [3640:5240:1121/151349.505:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 21, 2023 17:39:52.62 [3640:5240:1121/173952.062:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost

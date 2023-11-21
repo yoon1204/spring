@@ -97,6 +97,5 @@ public class MemberDAO {
 		testList.add("테스트항목2");			
 		// return null;   //  테스트시 실패
 		return testList;  // 테스트시 성공
-	}
-	
+	}	
 }

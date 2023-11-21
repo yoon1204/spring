@@ -19,9 +19,6 @@ public class formController {
 		return "formView";
 	}
 	
-	
-	
-	
 	@GetMapping("/formRegisterGet")
 	public void formget(HttpServletRequest request) {
 		String id = request.getParameter("id");	//	form name값이 key로 사용됨
@@ -31,8 +28,6 @@ public class formController {
 		System.out.println(pw);
 	}
 	
-	
-
 	@PostMapping("/formRegisterPost")
 	public void formpost(HttpServletRequest request) throws IOException {	
 		

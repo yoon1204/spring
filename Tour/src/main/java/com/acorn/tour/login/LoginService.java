@@ -17,7 +17,7 @@ public class LoginService {
 	     //return userid.equals("test") && pw.equals("1234");
 		 
 		 boolean result = rep.isValid(userid, pw);		 
-		 System.out.println("kkjkj"+result);
+		 
 		 return result;
     }
 	 

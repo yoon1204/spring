@@ -114,6 +114,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\hbi1\Desktop\like"/>
+			<item value="C:\Users\hbi1\Documents\javafullstack\spring"/>
+			<item value="C:\Users\hbi1\Desktop\day3\day3"/>
+			<item value="C:\Users\hbi1\Documents\javafullstack\spring\ajaxEx"/>
 			<item value="C:\Users\hbi1\Documents\javafullstack\spring\batisTran"/>
 			<item value="C:\Users\hbi1\Documents\javafullstack\spring\cartBatis"/>
 			<item value="C:\Users\hbi1\Documents\javafullstack\spring\batisPrj"/>

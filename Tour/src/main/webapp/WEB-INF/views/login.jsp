@@ -22,7 +22,7 @@
             margin-bottom: 20px;
         }
 
-        .wrap {
+        .login_wrap {
             height: 500px;
             width: 500px;
             padding: 20px;
@@ -32,6 +32,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            border-radius: 10px;
         }
 
         .login-container {
@@ -145,31 +146,32 @@
     </style>
 </head>
 <body>
-
-<h3>로그인</h3>
-
-<div class="wrap">
-    <div class="login-container">
-        <input type="text" id="id" class="input-field" placeholder="아이디">
-        <input type="password" name="pw" id="pw" class="input-field" placeholder="비밀번호">
-        <div class="eye-icon-container">
-            <i id="togglePassword" class="eye-icon far fa-eye"></i>
-        </div>
-    </div>
-
-    <div id="caps-msg" class="caps-lock-message" style="color: red; display: none;">Caps Lock이 켜져 있습니다.</div>
-
-    <div class="btn-container">
-        <div class="img_wrap">
-            <button onclick="kakaoLogin();" style="background: none; border: none; padding: 0; cursor: pointer;">
-                <img src="${path}/resources/images/카카오로그인.png" alt="카카오로그인">         
-            </button>
-        </div>
-        <button id="loginButton">로그인</button>
-        <span class="signup-link">회원가입</span>
-        <span class="forgot-link">ID/PW 찾기</span>
-    </div>
-</div>
+<section>
+	<h3>로그인</h3>
+	
+	<div class="login_wrap">
+	    <div class="login-container">
+	        <input type="text" id="id" class="input-field" placeholder="아이디">
+	        <input type="password" name="pw" id="pw" class="input-field" placeholder="비밀번호">
+	        <div class="eye-icon-container">
+	            <i id="togglePassword" class="eye-icon far fa-eye"></i>
+	        </div>
+	    </div>
+	
+	    <div id="caps-msg" class="caps-lock-message" style="color: red; display: none;">Caps Lock이 켜져 있습니다.</div>
+	
+	    <div class="btn-container">
+	        <div class="img_wrap">
+	            <button onclick="kakaoLogin();" style="background: none; border: none; padding: 0; cursor: pointer;">
+	                <img src="${path}/resources/images/카카오로그인.png" alt="카카오로그인">         
+	            </button>
+	        </div>
+	        <button id="loginButton">로그인</button>
+	        <span class="signup-link">회원가입</span>
+	        <span class="forgot-link">ID/PW 찾기</span>
+	    </div>
+	</div>
+</section>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
@@ -177,7 +179,7 @@
     Kakao.init("8409e3ef23d3aa24592484f08ad587c4");
     console.log(Kakao.isInitialized()); // sdk 초기화 여부 판단
 
-    
+    /*
     function a(){
     	alert("dfdfd");
     	
@@ -191,12 +193,11 @@
     	);
      	
     }
+    */
     
     
     // 카카오로그인
-    function kakaoLogin() {
-    	
-    	alert("fgfgfg");
+    function kakaoLogin() {    	
         Kakao.Auth.login({
             success: function (response) {
             	 
@@ -277,7 +278,7 @@
                         window.location.href = '${path}/welcome'; // 성공 시 이동할 페이지
                     } else {
                         // 로그인 실패 시 에러 메시지 출력 또는 필요한 작업 수행
-                        alert('아이디와 비밀번호를 확인하세요.');
+                        alert('로그인 실패');
                     }
                 }
             });
@@ -288,6 +289,8 @@
     <input type="hidden" name="user_kakao" id="user_kakao">
     <input type="hidden" name="nickname" id="nickname">
     <input type="hidden" name="profile_image" id="profile_image">
+    
+   
 </form>
 
 </body>

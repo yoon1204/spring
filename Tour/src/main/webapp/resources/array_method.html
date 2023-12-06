@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<script>
+
+let foods  =  [ "돈까스" ,  "비빔밥"  , "카레"];
+alert("djdjdjd=" +  foods.length);
+
+
+/*
+for( let i=0 ; i< foods.length ;  i++){
+	 alert( foods[i]);
+	 console.log(  foods[i]) ;
+}
+
+*/
+
+/*
+foods.forEach( function ( food ){
+	alert( food);
+});
+
+*/
+
+
+let newFood  = foods.map( function( food ){	
+	return   food+"음식";
+});
+
+
+newFood.forEach( function ( food ){
+	alert( food);
+});
+
+
+
+</script>
+</body>
+</html>

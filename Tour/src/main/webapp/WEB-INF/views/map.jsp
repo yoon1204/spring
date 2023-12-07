@@ -48,7 +48,7 @@
 
         /* 왼쪽 메뉴창 위쪽 아이콘 부분 */
         .map_depth1 {
-            height: 100%;
+            height: 1500px;
             width: 405px;
             background: #fff;            
         }
@@ -73,51 +73,37 @@
             margin: 0 0 17px;
             list-style: none;           
         }
-
-        /* 왼쪽 메뉴창 위쪽 아이콘 4개 */
-        .map_menu .map_tab li.on a {           
-            text-decoration: none;
-            color: #000;          
-        }
-
-        /* 주변여행지 아이콘  */
-        .map_menu .map_tab li.on a:before {
-            width: 37px;
-            background: url(https://korean.visitkorea.or.kr/resources/images/location/icon_depth1_menu_on.png) no-repeat;
-        }
-
-        /* 음식점 아이콘 */
-        .map_menu .map_tab li a.icon2:before {
-            background-position: 0 -36px !important;
-        }
-
-        /* 카페 아이콘 */
-        .map_menu .map_tab li a.icon3:before {
-            background-position: 0 -72px !important;
-        }
-
-        /* 숙소 아이콘 */
-        .map_menu .map_tab li a.icon4:before {
-            background-position: 0 -108px !important;
-        }
-
-         /* 왼쪽 메뉴창 위쪽 아이콘 4개 */
-         .map_menu .map_tab li a {
-            display: block;
-            position: relative;
-            color: #767676;
-            font-size: 14px;
-            letter-spacing: -1.5px;          
-        }
-
-         /* 왼쪽 메뉴창 위쪽 아이콘 4개 */
-        .map_menu .map_tab li a:before {
-            content: '';
-            display: block;
-            width: 36px;
+        
+        .iconImg{
+        	background: url(https://korean.visitkorea.or.kr/resources/images/location/icon_depth1_menu.png) no-repeat;
+        	width: 36px;
             height: 36px;
             margin: 0 auto 6px;
-            background: url(https://korean.visitkorea.or.kr/resources/images/location/icon_depth1_menu.png) no-repeat;         
+        }
+        
+        .iconText{
+         	color: #767676;
+            font-size: 14px;
+            letter-spacing: -1.5px;     
+        }
+        
+ 		.icon2{
+ 			background-position: 0 -36px !important;
+ 		}
+ 		.icon3{
+ 			background-position: 0 -72px !important;
+ 		}
+ 		.icon4{
+ 			background-position: 0 -108px !important;
+ 		}
+ 		.change{ 
+ 			background: url(https://korean.visitkorea.or.kr/resources/images/location/icon_depth1_menu_on.png) no-repeat;
+ 		}
+        
+        /* 주변여행지 아이콘 (색깔) */
+        .map_menu .map_tab li a:before {
+            width: 37px;
+            background: url(https://korean.visitkorea.or.kr/resources/images/location/icon_depth1_menu_on.png) no-repeat;
         }
 
         /* 왼쪽 메뉴창 밑부분 전체 */
@@ -201,27 +187,31 @@
             <div class="map_depth1">
                 <div class="map_menu cloud">               
                     <ul class="map_tab">
-                        <li label="tour" class="on">
-                            <a href="javascript:;" onclick="getMarkers('주변 여행지');" class="icon1" title="선택됨">주변 여행지</a>
-                        </li>
-                        <li label="food" class="on">
-                            <a href="javascript:;" onclick="getMarkers('음식점');" class="icon2" title="선택됨">음식점</a>
-                        </li>
-                        <li label="cafe" class="on">
-                            <a href="javascript:;" onclick="getMarkers('카페');" class="icon3" title="선택됨">카페</a>
-                        </li>
-                        <li label="hotel" class="on">
-                            <a href="javascript:;" onclick="getMarkers('숙소');" class="icon4" title="선택됨">숙소</a>
-                        </li>	
-                    </ul>
-                  <!-- 
-                    <button onclick="getMarkers('카페')">카페</button>
-					<button onclick="getMarkers('음식점')">음식점</button>
-					<button onclick="getMarkers('주변 관광지')">주변 관광지</button>
-					<button onclick="getMarkers('숙소')">숙소</button>
-					<button onclick="getMarkers()">모두 표시</button>
-					
-					--> 
+					    <li label="tour" class="on">
+					        <a onclick="getMarkers('주변 여행지');" title="선택됨">
+					            <div class="iconImg icon1" onclick="change(this, 'tour');"></div>
+					        </a>
+					        <div class="iconText">주변 여행지</div>
+					    </li>
+					    <li label="food" class="on">
+					        <a href="javascript:;" onclick="getMarkers('음식점');"  title="선택됨">
+					            <div class="iconImg icon2" onclick="change(this, 'food');"></div>
+					        </a>
+					        <div class="iconText">음식점</div>
+					    </li>
+					    <li label="cafe" class="on">
+					        <a href="javascript:;" onclick="getMarkers('카페');"  title="선택됨">
+					            <div class="iconImg icon3" onclick="change(this, 'cafe');"></div>
+					        </a>
+					        <div class="iconText">카페</div>
+					    </li>
+					    <li label="hotel" class="on">
+					        <a href="javascript:;" onclick="getMarkers('숙소');"  title="선택됨">
+					            <div class="iconImg icon4" onclick="change(this, 'hotel');"></div>
+					        </a>
+					        <div class="iconText">숙소</div>
+					    </li>
+					</ul>         
                 </div>
                 <div class="menu_cont">
                     <div class="list_type1">
@@ -246,8 +236,8 @@
         <button class="btn_fold" type="button">접기</button>
     </div>   
    	<!--  지도영역 -->
-    <div id="map" style="width:100%;height:800px;"></div>	
-    </section>
+    <div id="map" style="width:100%;height:1100px;"></div>	
+</section>
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8409e3ef23d3aa24592484f08ad587c4&libraries=clusterer"></script>
 	<script>
 	 	var map = new kakao.maps.Map(document.getElementById('map'), { // 지도를 표시할 div
@@ -305,9 +295,9 @@
 	    	console.log("data" + data);    	
 	        // 클러스터러에서 기존 마커를 제거합니다
 	        clusterer.clear();
-	        var imageSrc = 'https://korean.visitkorea.or.kr/resources/images/location/bg_clustering1.png', // 마커이미지의 주소입니다    
-	        imageSize = new kakao.maps.Size(64, 69); // 마커이미지의 크기입니다
-	        //imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.          
+	        var imageSrc = 'https://t1.daumcdn.net/mapjsapi/images/2x/marker.png', // 마커이미지의 주소입니다    
+	        imageSize = new kakao.maps.Size(35, 40); // 마커이미지의 크기입니다
+	       //imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.          
 	       //마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
 	       var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize);       
 	        // 새로운 데이터로부터 마커를 생성합니다
@@ -325,27 +315,19 @@
 	                filterMarkersWithinRadius(marker);
 	            });
 	        });       
-	      // 리스트 새로 갱신하기
-	      // div영역 지우기
-	       $("#map_listul").empty();      
-	       alert( data.length   + "dkdkkf");	      
+	     
+	       $("#map_listul").empty();      	       	      
 		   for( let i=0;  i< data.length ;  i++ ){			   
 			   let item=  data[i];			   
 			   let line  = "<li><a href='javascript:;'  style='background-image: url("  +  item.firstimage  +  ");'  class='map_img'></a>";
 	               line  += " <div class='info'> "; 
 	               line  += " <div class='tit'> ";
-	               line  += " <a href='javascript:;' >" +item.title +"</a> </div> </div> </li> ";	               
-	         //  alert( "line" + line);	      	         
-	           $("#map_listul").append( line ); 
-	           /*
-	            let item  =data[i];
-	            let line  = "<li> " +item.title + "   <img  class='map_img'  src='" +item.firstimage+ " ' ></li>";	         
-	           $("#map_listul").append( line );
-	           
-	           */
+	               line  += " <a href='javascript:;' >" +item.title +"</a> </div> </div> </li> ";	               	       	      	         
+	           $("#map_listul").append( line );           
 		   }	     
 	    });
-	}
+	}    
+  
     // 마커 클러스터러에 클릭이벤트를 등록합니다
     // 마커 클러스터러를 생성할 때 disableClickZoom을 true로 설정하지 않은 경우
     // 이벤트 헨들러로 cluster 객체가 넘어오지 않을 수도 있습니다
@@ -357,7 +339,7 @@
         	anchor: cluster.getCenter()
         	});
     });    
- // 클릭된 마커 주변의 마커들을 필터링하여 표시하는 함수
+ 	// 클릭된 마커 주변의 마커들을 필터링하여 표시하는 함수
     function filterMarkersWithinRadius(clickedMarker) {
         // 클러스터러에 추가할 마커 배열
         var markersToAdd = [];
@@ -383,7 +365,22 @@
         map.setCenter(clickedPosition);
         map.setLevel(4); // 혹은 원하는 레벨로 조절
     }
+ 
+	 function change(obj){		 
+		 let lis= document.querySelectorAll(".map_tab > li > a > div");
+		// alert( lis.length );		 
+		 for( let i=0; i< lis.length; i++){
+			 let li  = lis[i];	 		 
+			 if (li.classList.contains('change')){
+				 li.classList.remove('change');
+			 }			 
+		 }		 
+		 if (obj.classList.contains('change')){
+			 obj.classList.remove('change');
+		 }else{
+		 	obj.classList.add('change');
+		 }
+	 }
 	</script>
-
 </body>
 </html>

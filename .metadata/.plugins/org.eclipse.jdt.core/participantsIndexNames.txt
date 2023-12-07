@@ -97,5 +97,7 @@ C:\Users\hbi1\Documents\javafullstack\spring\.metadata\.plugins\org.eclipse.jst.
 \day5Exception\src\main\java
 C:\Users\hbi1\Documents\javafullstack\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1701778127.index
 \testprj3\src\main\java
+C:\Users\hbi1\Documents\javafullstack\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2324122753.index
+\Tour\src\main\java
 C:\Users\hbi1\Documents\javafullstack\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\301807071.index
 \Memo\src\main\java

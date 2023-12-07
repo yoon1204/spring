@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>TourKorea</title>
+<title>Insert title here</title>
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <style>
@@ -18,10 +18,8 @@
     }
 
     section{
-    	padding-top : 90px;       
         margin:0 auto;
-        max-width:1920px;       
-        position: relative;
+        max-width:1920px;
     }   
     
     /* 전체 */
@@ -507,7 +505,6 @@
         height: 17px;
         background: url(https://korean.visitkorea.or.kr/resources/images/curation/icon_map1.png) no-repeat;
         text-indent: -9999px;
-        cursor: pointer;
     }
 	
     .hotkok-area_list ul:after {
@@ -537,154 +534,9 @@
         vertical-align: 2px;
         background: url(https://korean.visitkorea.or.kr/resources/images/curation/btn_more01.png) no-repeat;
     }  
-    
-    
-    
-     /* 모달 창*/
-    .hidden_section{
-    	background-color: rgba(0,0,0, 0.1);
-    	width:100%;
-    	height:100%;
-    	position: absolute;
-    	top : 0;
-    	left : 0;
-    	display : none;
-    	opacity: 0.7; /* 투명도를 50%로 설정 */
-    	z-index: 1;
-    }
-     /* 모달 윈도우 코스에 담기 */
-    .modal_window_course{
-    	width: 300px;
-    	position: fixed;
-    	top: 35%;
-    	left: 38%;
-    	z-index: 1;
-    }
-    .course_title{
-    	display: flex;
-    	justify-content: space-between;
-    	padding: 15px;
-    	background: #13294b;
-    	align-items: center;
-    }
-    .course_title h2{
-	    font-weight: 700;
-	    color: white;
-	    font-size: 16px;
-    }
-    .course_title p{
-    	background: url('https://korean.visitkorea.or.kr/resources/images/common/btn_w_close_32x32.png');
-    	background-size: cover;
-    	background-position: center;
-    	background-repeat: no-repeat;
-    	width: 16px;
-    	height: 16px;
-    	cursor: pointer;
-    }
-    .course_Box{
-    	background-color: white;
-    	padding : 0px 10px 10px 10px;
-    	
-    	 max-height: 300px; /* 원하는 높이로 설정 */
- 		 overflow-y: auto; /* 세로 스크롤이 필요한 경우 스크롤을 표시하도록 설정 */
-    }
-    .course_list{
-    	display: flex;
-	    justify-content: space-between;
-	    align-items:center;
-	    padding: 10px 5px;
-	    border-bottom: 1px solid #e6e6e6;
-    }
-	.course_list_tit{
-		white-space: nowrap;       /* 텍스트가 줄 바꿈되지 않도록 설정 */
-		overflow: hidden;          /* 넘치는 부분은 숨기도록 설정 */
-		text-overflow: ellipsis;   /* 생략 부호로 텍스트가 잘릴 때 대체 */
-		width: 190px;
-	}				
-	.course_list_btn{
-		padding: 5px 10px;
-	    color: white;
-	    font-size: 14px;
-	    background: #13294b;
-	    cursor: pointer;
-	}		
-	.course_addBtn{
-		width: 80px;
-		height: 20px;
-		margin: 0 auto;
-		margin-top: 20px;
-		padding: 5px 15px;
-	    color: white;
-	    font-size: 14px;
-	    background: #13294b;
-	    text-align: center;
-	    line-height: 20px;
-	    cursor: pointer;
-	}	
-    
-    /* 코스 추가 모달 윈도우 */
-    .modal_window_addcourse{
-    	width: 300px;
-    	height: 180px;
-    	position : fixed;
-    	top: 40%;
-    	left: 40%;
-    	display: none;
-    	z-index:1;
-    }
-    .modal_courseTitle{
-    	padding: 15px;
-	    background: #13294b;
-	    font-weight: 700;
-	    color: #fff;
-	    font-size: 16px;
-	    display: flex;
-	    align-items: center;
-	    justify-content: space-between;
-    }
-    .modal_courseTitle img{
-    	display: block;
-    	width: 16px;
-    	height: 16px;
-    	cursor: pointer;
-    }
-    .modal_box{
-    	padding: 15px;
-    	height: 100px;
-    	background: white;
-    }
-    .modal_input{
-    	display: block;
-	    width: 100%;
-	    margin-top: 10px;
-	    margin-bottom: 20px;
-	    padding: 10px 5px;
-	    border: 0;
-	    border-bottom: 1px solid #767676;
-	    font-size: 14px;
-	    box-sizing: border-box;
-    }
-    .modal_checkbtn{
-    	display: block;
-    	border: 0;
-    	width: 55px;
-    	height: 30px;
-    	margin: 0 auto;
-    	color: white;
-	    font-size: 14px;
-	    background: #13294b;
-	    text-align: center;
-	    line-height: 30px;
-	    cursor: pointer;
-    }
-    
 </style>
 </head>
 <body>
-
-
-	<header><%@ include file="header.jsp" %></header>
-	
 	<section>       
         <div class="hotkok-swiper-container" style="height: auto;">
             <div class="swiper-wrapper" style="height: auto;">
@@ -763,7 +615,7 @@
                                 <ul class="hotkok-travelList">
                                 	<c:forEach var="item" items="${list}">
                                 		<li>
-							                <div class="img" onclick="placepageDetail('${item.contentid}')" style="background-image: url(${item.firstimage})"></div>
+							                <div class="img" style="background-image: url(${item.firstimage})"></div>
 							                <strong>${item.title}</strong>
 							                <div class="hotkok-info">
 							                    <span>${item.nickName}</span>
@@ -772,7 +624,11 @@
 							                <a class="hotkok-bookmark" href="#" onclick="addToFavorites('${item.contentid}', this); heartClick(this, 'whiteHeart');">
 											    <span>좋아요</span>
 											</a>										
-							                <a onclick="courseModal('${item.contentid}')" class="hotkok-map">여행지도</a>
+											<a href="javascript:;" class="hotkok-bookmark on" onclick="setLikeContent('02f56ab2-5e53-470f-8ec3-95cf8fb88aa4', this);">
+											    <span>좋아요</span>
+											</a>
+							                <a class="hotkok-map" href="#" onclick="showMap('${item.contentid}')">지도 보기</a>
+							                <a href="javascript:golocation('02f56ab2-5e53-470f-8ec3-95cf8fb88aa4','37.5430553337','127.0417770333');" class="hotkok-map">여행지도</a>
 							            </li>
                                 	</c:forEach>
                                 </ul>                            
@@ -785,71 +641,11 @@
                 </div>
             </div>
         </div>
-        
-        
-        
-        
-        <!--  모달 윈도우 -->
-		<div class="hidden_section" id="hidden_section" onclick="modalClose()"></div>
-		
-		<!-- 코스에 담기 모달 윈도우 -->
-		<div class="modal_window_course"></div>
-		
-		<!-- 코스 추가 모달 윈도우 -->
-		<div class="modal_window_addcourse">
-			<div class="modal_courseTitle">
-				<p>코스만들기</p>
-				<img onclick="addcourseClose()" src="https://korean.visitkorea.or.kr/resources/images/common/btn_w_close_32x32.png">
-			</div>
-			<div class="modal_box">
-				<input class="modal_input" id="modal_input" placeholder="코스명을 입력해 주세요.">
-				<div class="modal_checkbtn" onclick="insertCourse()">확인</div>
-			</div>
-		</div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     </section>    
-    
-   
-    
-    <footer><%@ include file="footer.jsp" %></footer>
-    
 </body>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
-
-	//스크롤 이벤트 감지
-	window.addEventListener('scroll', function() {
-	    let lastScrollTop = 0; // 이전 스크롤 위치 초기화
-	    let currentScrollTop = window.scrollY; // 현재 스크롤 위치 가져오기
-	    
-	    if (currentScrollTop > lastScrollTop) {
-	        // 아래로 스크롤 할 때
-	        document.querySelector('header').classList.add('scrolled'); // 스크롤된 상태를 나타내는 클래스 추가
-	    } else {
-	        // 위로 스크롤 할 때
-	        document.querySelector('header').classList.remove('scrolled'); // 스크롤된 상태를 나타내는 클래스 제거
-	    }
-	    
-	    lastScrollTop = currentScrollTop; // 현재 스크롤 위치를 이전 스크롤 위치로 업데이트
-	});
-
-
-
-
-
-
     var swiper = new Swiper('.hotkok-swiper-container', {
         slidesPerView: 'auto',
         spaceBetween: 20,
@@ -975,14 +771,14 @@
         let str = "";
         for (let i = 0; i < item.length; i++) {
             str += "<li>"
-            str += "	<div class=\"img\" onclick=\"placepageDetail('"+item[i].contentid+"')\" style=\"background-image: url(" + item[i].firstimage + ")\"></div>"
+            str += "	<div class=\"img\" style=\"background-image: url(" + item[i].firstimage + ")\"></div>"
             str += " 	<strong>" + item[i].title + "</strong>"
             str += "	<div class=\"hotkok-info\">"
             str += " 		<span>" + item[i].nickName + "</span>"
             str += "  		<span>" + item[i].sigunguName + "</span>"
             str += " 	</div>"
             str += " 	<a class=\"hotkok-bookmark" + (item[i].liked ? ' clicked' : '') + "\" href=\"#\" onclick=\"addToFavorites('" + item[i].contentid + "', this)\">좋아요</a>"
-            str += " 	<a class=\"hotkok-map\" onclick=\"courseModal('" + item[i].contentid + "')\">코스 담기</a>"
+            str += " 	<a class=\"hotkok-map\" href=\"#\" onclick=\"showMap('" + item[i].contentid + "')\">지도 보기</a>"
             str += "</li>"
         }
 
@@ -1050,124 +846,6 @@
         let str = "<span onclick=\"morefooddata('"+sidocode+"')\">더보기</span>";
         $(".hotkok-more").append(str);
     }   
-    
-    
- 	// 여행지 상세페이지 이동
-	function placepageDetail(contentId){
-		let detailpath = "${path}/sightsDetail";
-		window.location.href = detailpath+"?contentId="+contentId;
-	}
- 	
-	// 코스에 담기
-	function courseModal(contentId){
-		let userId = '<%= session.getAttribute("userId")%>'; // 세션에 저장된 userId값 가져오기
-   		if (userId == 'null') {
-   			alert("로그인이 필요한 서비스입니다.");
-   			window.location.href = "${path}/loginform";
-   	    }else{
-   	    	$.ajax({
-   		 		type:"GET" ,
-   		 		url: "${path}/mycourselist",
-   		 		//data: "contentId=" + contentId,
-   		 		success : function( data){
-   		 			// 클릭되었던 모달창 제거
-   		 			
-   		   			let hiddensection = document.querySelector('.hidden_section');
-   		   			hiddensection.style.display = "block"
-   		   			let element = document.querySelector('.modal_window_course');
-   		   			element.style.display = "block";
-   		   			
-   		 			let courselist = data.mycourseList;
-   		   			let str = "<div class=\"course_title\">"
-   		   					+ "		<h2>코스 선택</h2>"
-   		   					+ "		<p onclick=\"modalClose()\"></p>"
-   		   					+ "</div> "
-   		   					+ "<div class=\"course_Box\">";
-   		   			for(let i=0; i<courselist.length; i++){
-   		   				str += "		<div class=\"course_list\">";
-   		   				str += "			<div class=\"course_list_tit\">"+courselist[i].coursename+"</div>";
-   		   				str += "			<div class=\"course_list_btn\" onclick=\"courseselect('"+courselist[i].coursecode+"','"+ contentId+"')\">선택</div>";
-   		   				str += "		</div>";
-   		   			}
-   		   				str += "		<div class=\"course_addBtn\" onclick=\"addcourse()\">코스추가</div>";
-   		   				str += "</div>";
-   		   			$(".modal_window_course").append(str);
-   		 		},
-   		 		error: function(){
-   		 			alert( "error");
-   		 		}
-   		 	});	
-   	    }
-	}
-	
-	// 코스추가
-	function addcourse(){
-		let element1 = document.querySelector('.modal_window_course');
-		element1.style.display = "none";
-		//$(".modal_window_course").empty();
-		let element2 = document.querySelector('.modal_window_addcourse');
-		element2.style.display = "block";
-	}
-	
-	// 코스추가 닫기
-	function addcourseClose(){
-		let element1 = document.querySelector('.modal_window_course');
-		element1.style.display = "block";
-		//$(".modal_window_course").empty();
-		let element2 = document.querySelector('.modal_window_addcourse');
-		element2.style.display = "none";
-	}
-	
-	// 생성된 코스 삽입
-	function insertCourse(){
-		let courseName = document.getElementById('modal_input').value;
-		$.ajax({
-	 		type:"post" ,
-	 		url: "${path}/insertmycourse",
-	 		data: "courseName=" + courseName,
-	 		success : function( data){
-	 			window.location.reload();
-	 		},
-	 		error: function(){
-	 			alert( "error");
-	 		}
-	 	});	
-	}
-	
-	// 코스에 리스트 담기
-	function courseselect(coursecode, contentId){
-		$.ajax({
-	 		type:"post" ,
-	 		url: "${path}/insertmycourselist",
-	 		data: "coursecode=" + coursecode + "&contentId=" + contentId,
-	 		success : function( data){
-	 			if(data == 0){
-	 				alert("코스에 담겼습니다.");
-	 			}else{
-	 				alert("이미 담겨 있는 코스입니다.");
-	 			}
-	 			window.location.reload();
-	 		},
-	 		error: function(){
-	 			alert( "error");
-	 		}
-	 	});	
-	}
-	
-	// 모달창제거
-	function modalClose(){
-		// 클릭되었던 코스 모달창 제거
-		$(".modal_window_course").empty();
-		
-		// 클릭되었던 코스추가 모달창 제거
-		let element =  document.querySelector('.modal_window_addcourse');
-		element.style.display = "none";
-		
-		// 모달창 뒷 배경 없애기 
-		document.getElementById("hidden_section").style.display = "none";
-	}
-	
- 	
 </script>    
 </body>
 </html>
